@@ -1,0 +1,9 @@
+q = 0  # number of points in the circles
+for i in range(total_number) :
+    if (x[i]**2 + y[i]**2)<1:
+        q +=1
+print(q)
+probability_circle = q  / total_number
+print(probability_circle)
+pi = probability_circle * 4
+print(pi)
